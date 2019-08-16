@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+Open [https://remote-slide-frontend.herokuapp.com/](https://remote-slide-frontend.herokuapp.com/) to view demo application.
+
 ## Available Scripts
 
 In the project directory, you can run:
