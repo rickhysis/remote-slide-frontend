@@ -38,8 +38,11 @@ function MobileContainer() {
                     <h2>Set Code</h2>
                     <form onSubmit={onSubmit}>
                         <input type="text" className="mobile-input__code" id="mobile-input__code"/>
-                        <button type="submit">SET</button>
+                        <button type="submit">SUBMIT</button>
                     </form>
+                    <p>
+                      To get code go tothe site from your computer
+                    </p>
                 </div>
             ) : (
                 <div>

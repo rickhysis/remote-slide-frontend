@@ -1,6 +1,8 @@
 import React, { useEffect, useContext } from "react";
 import {AppContext} from '../AppContext';
 import Slide from '../components/Slide';
+import Synchronize from "../components/Synchronize";
+import './desktop.css';
 
 function DesktopContainer() {
   const [state, setState] = useContext(AppContext);
@@ -15,7 +17,7 @@ function DesktopContainer() {
       </header>
       <div>
         {
-          state.isPlaying ? <Slide /> : state.code
+          state.isPlaying ? <Slide /> : <Synchronize code={state.code} />
         }
       </div>
     </div>
